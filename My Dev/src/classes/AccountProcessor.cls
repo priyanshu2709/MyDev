@@ -1,5 +1,6 @@
 public class AccountProcessor
 {
+    //added a comment to resolve issues in the file
     @future
     public static void countContacts(list<id> lstAccid)
     {
