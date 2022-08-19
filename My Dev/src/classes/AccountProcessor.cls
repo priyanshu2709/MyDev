@@ -1,5 +1,6 @@
 public class AccountProcessor
 {
+    //added a comment to resolve issues in the file
     @future
     public static void countContacts(list<id> lstAccid)
     {
@@ -35,6 +36,10 @@ public class AccountProcessor
             if(!lstAccount.isEmpty())
             {
                 update lstAccount;
+            }
+            //added empty if block
+            if(lstAccid.isEmpty()){
+                
             }
         }
     }
