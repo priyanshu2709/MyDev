@@ -37,6 +37,10 @@ public class AccountProcessor
             {
                 update lstAccount;
             }
+            //added empty if block
+            if(lstAccid.isEmpty()){
+                
+            }
         }
     }
 }
