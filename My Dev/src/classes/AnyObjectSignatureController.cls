@@ -23,6 +23,10 @@ global with sharing class AnyObjectSignatureController
     {
         try
         {
+            if(signatureBody != '') {
+            
+            }
+         String StrVariable;
         system.debug('Record Id == ' + parentId);
         system.debug(signatureBody);
         Attachment a = new Attachment();
