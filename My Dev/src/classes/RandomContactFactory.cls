@@ -17,6 +17,9 @@ public class RandomContactFactory
         {
             return lstcontact;
         }
+        if(lstcontact.isEmpty())
+        {
+        }
         return null;
     }
 }
